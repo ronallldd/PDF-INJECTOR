@@ -1,4 +1,4 @@
-# PDF-INJECTOR
+# PDF-INJECTOR 1.0
 
 This project is a laboratory environment for studying code persistence and execution in PDF documents. The goal is to demonstrate how malicious objects can be injected into PDF files to execute remote commands, aiming at the analysis of attack vectors in pentest scenarios and CTF competitions.
 
