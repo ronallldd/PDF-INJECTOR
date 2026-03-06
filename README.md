@@ -1,8 +1,4 @@
 # PDF-INJECTOR
-Este projeto é um ambiente de laboratório para estudos sobre persistência e execução de código em documentos PDF. O objetivo é demonstrar como objetos maliciosos podem ser injetados em arquivos PDF para executar comandos remotos, visando a análise de vetores de ataque em cenários de pentest e competições de CTF.
-
-as seguintes bibliotecas devem estar instaladas socket,subprocess,os,sys,webbrowser,threading,time, antes de usar devera ter seu pdf e arquivo ico de pdf na pasta, arquivos de exemplo ja estarão no reporsitorio, vale ressaltar que o pyinstaller tambem devera estar instalado, o ip devera ser mudado no codigo pdf-injector.py de acordo com seu ip, após isso sera nescessario usar o netcat para receber a conexão.
-
 
 This project is a laboratory environment for studying code persistence and execution in PDF documents. The goal is to demonstrate how malicious objects can be injected into PDF files to execute remote commands, aiming at the analysis of attack vectors in pentest scenarios and CTF competitions.
 
@@ -15,3 +11,15 @@ The following libraries must be installed: socket, subprocess, os, sys, webbrows
 Command to create the infected pdf
 
 pyinstaller --onefile --noconsole --icon=pdf.ico --add-data "bitcoin.pdf;." --name bitcoin.pdf pdf-injector.py
+
+
+⚠️ Legal Notice (Disclaimer)
+This project was developed strictly for educational and research purposes in controlled environments, such as CTF (Capture The Flag) competitions and cybersecurity study labs.
+
+Ethical Use: Using this material to attack networks, systems, or computers without the explicit written permission of the owner is illegal and unethical.
+
+Responsibility: The author of this project assumes no responsibility for damages caused, misuse of the tools contained herein, or any illegal activities carried out by third parties using this code.
+
+Purpose: The purpose of this tool is to allow security professionals and students to understand attack vectors, test EDR defenses, and improve their ability to detect malicious injections into documents.
+
+By using this repository, you agree that you are solely responsible for your actions and for ensuring that your use complies with all applicable local, state, and federal laws.
